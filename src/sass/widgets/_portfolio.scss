@@ -13,6 +13,7 @@
 	&__list {
 		display: flex;
 		flex-wrap: wrap;
+		cursor: pointer;
 		& li:hover {
 			color: $clr-red;
 			// cursor: pointer;

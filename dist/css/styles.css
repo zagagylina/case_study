@@ -439,7 +439,8 @@ button {
 
 .portfolio__list {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  cursor: pointer; }
   .portfolio__list li:hover {
     color: #e74c3c; }
   .portfolio__list li:not(:last-child):after {
