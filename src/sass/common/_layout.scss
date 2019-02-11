@@ -1,0 +1,42 @@
+html{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+
+}
+body {
+	background-color: #fff;
+	// font-family: arial;
+}
+button{
+	cursor: pointer;
+}
+.wrapper{
+	max-width: 1164px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+}
+
+.background--light{
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dashes {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	&__dash {
+		border: 0.5px solid $clr-gray;
+		width: 80px;
+		height: 1px;
+		margin: 15px 0 13px;
+	}
+	&__red-dot {
+		border-radius: 50%;
+		background-color:  $clr-red;
+		width: 7px;
+		height: 7px;
+		margin: 0 15px;
+	}
+}

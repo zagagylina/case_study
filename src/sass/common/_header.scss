@@ -1,0 +1,81 @@
+.header{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	font-size: 1rem;
+	transition: 0.5s;
+
+	&__wrapper{
+		width: 100%;
+		padding: 67px 0 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__navigation{
+		display: flex;
+		align-items: center;
+	}
+
+	&__login>button{
+		border: 1px solid rgba(85, 132, 255, 0.3);
+		border-radius: 24px;
+		width: 130px;
+		height: 48px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 50px;
+		background: none;
+		color: $clr-blue-light;
+	}
+	ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 382px;
+		& a{
+			padding: 0 25px;
+			color: $clr-white;
+		}
+		& a:hover{
+			color: $clr-blue-light;
+		}
+	}
+
+}
+
+
+
+.container{
+	&:before{
+		content: '';
+		position: absolute;
+		height: 135px;
+		width: 100%;
+		background-color: #112042;
+		z-index: -999;
+	}
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #112042;
+	margin-top: -52px;
+	padding-bottom: 15px;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+

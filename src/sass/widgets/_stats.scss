@@ -1,0 +1,47 @@
+.stats {
+	background: url(../../img/footer.jpg);
+	background-color: rgba(0,0,0, 0.5);
+	background-size: cover, cover;
+	background-repeat: no-repeat, no-repeat;
+	// height: 26.6vw;
+	max-height: 511px;
+	background-blend-mode: color;
+
+	&__container {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 8.55vw;
+		margin-top: 8.125vw;
+		margin-bottom: 7.4vw;
+	}
+
+	&__icon {
+		position: relative;
+		width: 5.7vw;
+		height: 5.7vw;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		margin-bottom: 2.6vw;
+		&--border {
+			border: 1px solid $clr-white;
+			border-radius: 50%;
+			width: inherit;
+			height: inherit;
+			position: absolute;
+		}
+		&--image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}

@@ -1,0 +1,25 @@
+$clr-white: #fff;
+$clr-black: #000;
+$clr-gray: rgb(153, 153, 153);
+$clr-gray-light: rgb(244, 245, 249);
+$clr-gray-dark: rgb(106, 106, 106);
+$clr-red: rgb(231, 76, 60);
+
+
+
+
+$mq-desktop-min: 1201px;
+$mq-desktop-hd: 1336px;
+$mq-desktop-medium: 1680px;
+$mq-desktop-fullhd: 1920px;
+
+$mq-tablet: $mq-desktop-min - 1;
+$mq-tablet-medium: 1024px;
+$mq-tablet-small: 980px;
+$mq-tablet-min: 768px;
+
+
+$mq-mobile: $mq-tablet-min - 1;
+$mq-mobile-medium: 600px;
+$mq-mobile-small: 480px;
+$mq-mobile-min: 360px;
